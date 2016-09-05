@@ -1,0 +1,12 @@
+Source: ros-kinetic-waypoint-meta
+Section: misc
+Priority: extra
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/waypoint_meta
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-waypoint-meta
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-waypoint-generator, ros-kinetic-waypoint-touring
+Description: Waypoint Meta package
