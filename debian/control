@@ -1,0 +1,12 @@
+Source: ros-indigo-waypoint-meta
+Section: misc
+Priority: extra
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/waypoint_meta
+Standards-Version: 3.9.2
+
+Package: ros-indigo-waypoint-meta
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-waypoint-generator, ros-indigo-waypoint-touring
+Description: Waypoint Meta package
